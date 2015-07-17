@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentExtensions.Tests", "FluentExtensions.Tests\FluentExtensions.Tests.csproj", "{3B5C4C40-1037-4A55-A0D7-B936EFE9ADC5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentExtensions.Benchmarks", "FluentExtensions.Benchmarks\FluentExtensions.Benchmarks.csproj", "{F6F3881E-DB0E-4C5A-8B03-28D0AD178704}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BFB30B7C-156A-4C4C-9346-0B5DD29AC0DB} = {BFB30B7C-156A-4C4C-9346-0B5DD29AC0DB}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

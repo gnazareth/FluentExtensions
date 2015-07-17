@@ -5,7 +5,7 @@ namespace FluentExtensions.Object
     /// <summary>
     /// Extensions on any object to serialize it into json format
     /// </summary>
-    public static class ObjectToJsonExtensions
+    public static class ObjectToJsonExtension
     {
         /// <summary>
         /// Serializes an object to a Json string
