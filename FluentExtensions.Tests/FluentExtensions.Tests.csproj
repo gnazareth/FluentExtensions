@@ -53,7 +53,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Object\ObjectExtensionTests.cs" />
+    <Compile Include="Int\TimesExtensionTests.cs" />
+    <Compile Include="Object\ObjectToJsonExtensionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
