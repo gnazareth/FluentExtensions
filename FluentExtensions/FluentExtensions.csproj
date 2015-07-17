@@ -66,6 +66,7 @@
     <Compile Include="Int\TimesExtension.cs" />
     <Compile Include="Object\ObjectToJsonExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="String\StringRightExtension.cs" />
     <Compile Include="String\StringLeftExtension.cs" />
   </ItemGroup>
   <ItemGroup>
