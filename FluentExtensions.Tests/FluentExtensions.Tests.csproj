@@ -73,11 +73,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Byte\ByteArrayToHexStringTests.cs" />
+    <Compile Include="Byte\ByteArrayToStringTests.cs" />
     <Compile Include="Int\TimesExtensionTests.cs" />
     <Compile Include="Object\ObjectToJsonExtensionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="String\RightExtensionTests.cs" />
     <Compile Include="String\LeftExtensionTests.cs" />
+    <Compile Include="String\StringContainsWithCaseIgnoredTests.cs" />
+    <Compile Include="String\StringToByteArrayTests.cs" />
+    <Compile Include="String\ToByteArrayFromHexStringTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

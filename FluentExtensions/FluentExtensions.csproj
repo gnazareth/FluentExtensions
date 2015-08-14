@@ -63,11 +63,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Byte\ToHexStringExtension.cs" />
+    <Compile Include="Byte\ToStringExtension.cs" />
     <Compile Include="Int\TimesExtension.cs" />
     <Compile Include="Object\ObjectToJsonExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="String\ContainsWithCaseIgnoredExtension.cs" />
     <Compile Include="String\StringRightExtension.cs" />
     <Compile Include="String\StringLeftExtension.cs" />
+    <Compile Include="String\StringToByteArrayExtension.cs" />
+    <Compile Include="String\ToByteArrayFromHexStringExtension.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
