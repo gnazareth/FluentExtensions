@@ -12,6 +12,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentExtensions.Benchmarks
 		{BFB30B7C-156A-4C4C-9346-0B5DD29AC0DB} = {BFB30B7C-156A-4C4C-9346-0B5DD29AC0DB}
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos", "Demos", "{1C50BFE4-F09B-46C7-BA09-22E38DAA5E11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentExtensions.Demos.String.Left", "FluentExtensions.Demos.String.Left\FluentExtensions.Demos.String.Left.csproj", "{6CF82F74-62CA-413B-A3AE-F2C054B91D04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,8 +34,15 @@ Global
 		{F6F3881E-DB0E-4C5A-8B03-28D0AD178704}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6F3881E-DB0E-4C5A-8B03-28D0AD178704}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6F3881E-DB0E-4C5A-8B03-28D0AD178704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CF82F74-62CA-413B-A3AE-F2C054B91D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF82F74-62CA-413B-A3AE-F2C054B91D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF82F74-62CA-413B-A3AE-F2C054B91D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF82F74-62CA-413B-A3AE-F2C054B91D04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6CF82F74-62CA-413B-A3AE-F2C054B91D04} = {1C50BFE4-F09B-46C7-BA09-22E38DAA5E11}
 	EndGlobalSection
 EndGlobal

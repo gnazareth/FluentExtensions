@@ -78,6 +78,7 @@
     <Compile Include="Int\TimesExtensionTests.cs" />
     <Compile Include="Object\ObjectToJsonExtensionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="String\ConversionTests.cs" />
     <Compile Include="String\RightExtensionTests.cs" />
     <Compile Include="String\LeftExtensionTests.cs" />
     <Compile Include="String\StringContainsWithCaseIgnoredTests.cs" />
